@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-size: 60px;
+	background-color: lightskyblue;
+	padding: 1rem;
+}
+nav{
+	border: 2px solid red;
+	padding: 5px;
+	text-align: center;
+	margin: 10px;
+	border-radius: 20px;
+	margin-left: 500px;
+	margin-right: 500px;
+	background: green;
+	gap: 2rem;
+}
+
+button{
+	background: lightgreen;
+	border-radius: 20px;
+}
+button:hover{
+	color: black;
+	background: red;
+}
+body{
+	background-color: lightcoral
+}
+a{
+	font-size: 20px;
+}
+
+a2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: white;
+	font-size: 20px
+	
+}
